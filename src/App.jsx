@@ -46,7 +46,7 @@ const App = () => {
  
   return (
     <div className="container">
-      <Search  handleSearchNote={searchText}/>
+      <Search  handleSearchNote={setSearchText}/>
       <NotesList 
       notes={notes} 
       handleAddNote={addNote} 
